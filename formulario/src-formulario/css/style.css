@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Faster+One&family=Foldit&family=Jacques+Francois+Shadow&family=Playfair+Display:wght@800&family=Stardos+Stencil&family=Suez+One&family=Vast+Shadow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box {
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5%;
+    width: 25%;
+    padding: 15px;
+    z-index: 2;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;   
+}
+
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+h1 {
+    color:rgb(21, 184, 248); 
+    font-family: 'Vast Shadow'; 
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    border: 3px solid dodgerblue;
+    border-radius: 2%;  
+}
+
+legend {
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 25%;
+    width: 200px;
+
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    padding: 2vh;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    margin-top: 22px;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+
+#submit {
+    background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
+    width: 50%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 3;
+    margin-bottom: 30px;
+    transition: 0.2s;
+    left: 25%;
+}
+
+
+.submit:hover {
+    transform: scale(1.08);
+   
+}
+
+.duvida {
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: black;
+    position: relative;
+    margin-top: 10px;
+}
+
+.duvida textarea {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
